@@ -1,0 +1,13 @@
+train: /Users/Francesco/Desktop/YOLO/yolov7/custom_dataset/train/images
+val: /Users/Francesco/Desktop/YOLO/yolov7/custom_dataset/valid/images
+test: /Users/Francesco/Desktop/YOLO/yolov7/custom_dataset/test/images
+
+nc: 6
+names: ['cardboard', 'glass', 'metal', 'paper', 'plastic', 'trash']
+
+roboflow:
+  workspace: trash-can
+  project: trash-3ydki
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/trash-can/trash-3ydki/dataset/2
